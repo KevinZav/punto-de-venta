@@ -1,0 +1,22 @@
+* {
+  scrollbar-color: $neutral-300 $neutral-100;
+  scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: $neutral-200;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: $neutral-300;
+  border-radius: 8px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: $black-600;
+}
