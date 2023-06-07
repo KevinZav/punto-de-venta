@@ -1,0 +1,51 @@
+$sizes: (
+  none: 0,
+  xs: 4px,
+  sm: 8px,
+  md: 16px,
+  lg: 24px,
+  xl: 32px,
+  xxlg: 40px,
+  xxslc: 48px,
+  xslcc: 56px,
+  lc: 120px,
+);
+
+$space-types: (
+  m: margin,
+  mt: margin-top,
+  mb: margin-bottom,
+  ml: margin-left,
+  mr: margin-right,
+  p: padding,
+  pt: padding-top,
+  pb: padding-bottom,
+  pl: padding-left,
+  pr: padding-right,
+);
+
+@each $classType, $type in $space-types {
+  @each $classSize, $size in $sizes {
+    .#{$classType}-#{$classSize} {
+      #{$type}: #{$size} !important;
+    }
+  }
+}
+
+$space-types-special: (
+  m: margin,
+  p: padding,
+);
+
+@each $classType, $type in $space-types-special {
+  @each $classSize, $size in $sizes {
+    .#{$classType}y-#{$classSize} {
+      #{$type}-top: #{$size} !important;
+      #{$type}-bottom: #{$size} !important;
+    }
+    .#{$classType}x-#{$classSize} {
+      #{$type}-left: #{$size} !important;
+      #{$type}-right: #{$size} !important;
+    }
+  }
+}
