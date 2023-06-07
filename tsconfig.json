@@ -19,7 +19,8 @@
     "paths": {
       "@/*": ["src/*"],
       "@components/*": ["src/app/shared/modules/components/*"],
-      "@models/*": ["src/app/shared/models/*"]
+      "@models/*": ["src/app/shared/models/*"],
+      "@pages/*": ["src/app/pages/*"]
     },
     "lib": [
       "esnext",
