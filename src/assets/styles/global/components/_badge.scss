@@ -1,0 +1,99 @@
+@import 'tailwindcss/utilities';
+
+@layer utilities {
+  .badge {
+    display: inline-flex;
+    align-items: center;
+
+    padding: 4px 8px;
+
+    border-radius: 4px;
+
+    @apply font-medium;
+
+    button {
+      display: inline-flex;
+      align-items: center;
+
+      padding: 2px;
+      margin-left: 8px;
+
+      border-radius: 50%;
+    }
+
+    &.badge-blue {
+      background-color: $blue-900;
+      color: $blue-200;
+
+      button {
+        background-color: transparent;
+        color: $blue-400;
+
+        &:hover {
+          background-color: $blue-800;
+          color: $blue-200;
+        }
+      }
+    }
+
+    &.badge-red {
+      background-color: $red-900;
+      color: $red-200;
+
+      button {
+        background-color: transparent;
+        color: $red-400;
+
+        &:hover {
+          background-color: $red-800;
+          color: $red-200;
+        }
+      }
+    }
+
+    &.badge-yellow {
+      background-color: $yellow-900;
+      color: $yellow-200;
+
+      button {
+        background-color: transparent;
+        color: $yellow-400;
+
+        &:hover {
+          background-color: $yellow-800;
+          color: $yellow-200;
+        }
+      }
+    }
+
+    &.badge-green {
+      background-color: $green-900;
+      color: $green-100;
+
+      button {
+        background-color: transparent;
+        color: $green-200;
+
+        &:hover {
+          background-color: $green-400;
+          color: $green-100;
+        }
+      }
+    }
+
+    &.badge-black {
+      background-color: $black-800;
+      color: $neutral-100;
+
+      button {
+        background-color: transparent;
+        color: $neutral-200;
+
+        &:hover {
+          background-color: $black-700;
+          color: $neutral-100;
+        }
+      }
+    }
+  }
+}
