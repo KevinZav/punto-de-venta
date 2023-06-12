@@ -31,10 +31,22 @@ $white: #FFFFFF;
 $red-danger: #FF0000;
 $red-light: #FFCCCC;
 
+$yellow-900: #FF8000;
+$yellow-800: #FF8C00;
 $yellow-warning: #FFCC00;
-$yellow-light: #FFFFCC;
+$yellow-400:#FFD633;
+$yellow-300:#FFE699;
+$yellow-200:#FFF5CC;
+$yellow-100:#FFFFE6;
+$yellow-light:#FFFFCC;
 
 $green-success: #008000;
+$green-900: #00A000;
+$green-800: #00C000;
+$green-400:#0F9446;
+$green-300:#29AB7F;
+$green-200:#58C59E;
+$green-100:#A4EAC3;
 $green-light: #CCFFCC;
 
 $colors-map: (
@@ -64,10 +76,18 @@ $colors-map: (
   'yellow': (
     'warning': $yellow-warning,
     'light': $yellow-light,
+    '400': $yellow-400,
+    '300': $yellow-300,
+    '200': $yellow-200,
+    '100': $yellow-100,
   ),
   'green': (
     'success': $green-success,
     'light': $green-light,
+    '400': $green-400,
+    '300': $green-300,
+    '200': $green-200,
+    '100': $green-100,
   ),
   'black': (
     '600': $black-600,
