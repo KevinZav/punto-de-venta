@@ -9,7 +9,7 @@
 <script setup lang="ts">
 import Typography from '@components/Typography/Typography.vue';
 import { Icon } from '@iconify/vue';
-import { BadgeProps, BadgeEmits } from '../../../models/components/badge';
+import { BadgeProps, BadgeEmits } from '@custom-types/components/badge';
 
 const { variant, text, dismissable } = defineProps<BadgeProps>();
 const emits = defineEmits<BadgeEmits>()

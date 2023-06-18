@@ -4,7 +4,7 @@
 
 </template>
 <script setup lang="ts">
-import { TypographyProps } from '@models/components/typography';
+import { TypographyProps } from '@custom-types/components/typography';
 import TagTypography from './TagTypography.vue';
 import { computed } from 'vue';
 
