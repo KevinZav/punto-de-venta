@@ -5,7 +5,7 @@
   </span>
 </template>
 <script setup lang="ts">
-import { IndicatorProps } from '@models/components/indicator';
+import { IndicatorProps } from '@custom-types/components/indicator';
 import Typography from '@components/Typography/Typography.vue';
 
 const {text, variant} = defineProps<IndicatorProps>()

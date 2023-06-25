@@ -13,7 +13,7 @@
   <small v-else :class="variant"><slot></slot></small>
 </template>
 <script setup lang="ts">
-import { TagTypographyProps } from '@models/components/typography';
+import { TagTypographyProps } from '@custom-types/components/typography';
 
 const { variant } = defineProps<TagTypographyProps>();
 </script>

@@ -20,7 +20,9 @@
       "@/*": ["src/*"],
       "@components/*": ["src/app/shared/modules/components/*"],
       "@models/*": ["src/app/shared/models/*"],
-      "@pages/*": ["src/app/pages/*"]
+      "@pages/*": ["src/app/pages/*"],
+      "@hooks/*": ["src/app/shared/hooks/*"],
+      "@custom-types/*": ["src/app/shared/types/*"]
     },
     "lib": [
       "esnext",
